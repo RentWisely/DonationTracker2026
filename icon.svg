@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FFB6E1"/>
+  
+  <!-- Left breast -->
+  <ellipse cx="65" cy="85" rx="28" ry="45" fill="#E8B8A0"/>
+  <ellipse cx="65" cy="85" rx="24" ry="40" fill="#F0C8B0"/>
+  
+  <!-- Right breast -->
+  <ellipse cx="135" cy="85" rx="28" ry="45" fill="#E8B8A0"/>
+  <ellipse cx="135" cy="85" rx="24" ry="40" fill="#F0C8B0"/>
+  
+  <!-- Left hand (thumbs up) -->
+  <g transform="translate(60, 95)">
+    <!-- Palm -->
+    <rect x="-8" y="0" width="16" height="35" rx="8" fill="#F4A68A"/>
+    <!-- Thumb up -->
+    <rect x="-18" y="-25" width="14" height="35" rx="7" fill="#F4A68A" transform="rotate(-30 -11 -10)"/>
+    <!-- Pink nail on thumb -->
+    <ellipse cx="-8" cy="-28" rx="5" ry="7" fill="#FF1493" transform="rotate(-30 -8 -28)"/>
+    <!-- Pink nails on fingers -->
+    <ellipse cx="-3" cy="-8" rx="4" ry="6" fill="#FF1493"/>
+  </g>
+  
+  <!-- Right hand (thumbs up) -->
+  <g transform="translate(140, 95)">
+    <!-- Palm -->
+    <rect x="-8" y="0" width="16" height="35" rx="8" fill="#F4A68A"/>
+    <!-- Thumb up -->
+    <rect x="4" y="-25" width="14" height="35" rx="7" fill="#F4A68A" transform="rotate(30 11 -10)"/>
+    <!-- Pink nail on thumb -->
+    <ellipse cx="8" cy="-28" rx="5" ry="7" fill="#FF1493" transform="rotate(30 8 -28)"/>
+    <!-- Pink nails on fingers -->
+    <ellipse cx="3" cy="-8" rx="4" ry="6" fill="#FF1493"/>
+  </g>
+  
+  <!-- Playful shine/highlight -->
+  <circle cx="80" cy="60" r="12" fill="white" opacity="0.3"/>
+  <circle cx="150" cy="60" r="12" fill="white" opacity="0.3"/>
+</svg>
